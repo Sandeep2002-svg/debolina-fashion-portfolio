@@ -2,79 +2,354 @@
   
   "projects": [
     {
-      "id": 1,
-      "title": "Ethereal Couture Collection",
-      "category": "men's wear",
-      "description": "A high-fashion collection inspired by celestial movements and organic forms.",
-      "tags": ["Hand-embroidered", "Silk", "Contemporary"],
-      "moodBoard": {
-        "text": "A palette of midnight blues and shimmering silvers evoking cosmic elegance.",
-        "images": [
-          "/photos/img2.jpg",
-          "/photos/img6.jpg",
-          "/photos/img3.jpg",
-          "/photos/img4.jpg",
-          "/photos/img5.jpg"
-        ]
-      },
-      "inspiration": "Inspired by the phases of the moon and the fluidity of stardust."
+  "id": 1,
+  "title": "Ethereal Couture Collection",
+  "category": "men's wear",
+  "description": "A high-fashion collection inspired by celestial movements and organic forms.",
+  "tags": [
+    "Hand-embroidered",
+    "Silk",
+    "Contemporary"
+  ],
+  "coverImage": "/photos/pehchan_hero_3.png",
+
+  "imageCollections": [
+    {
+      "cover": "/photos/hero_img_1.webp",
+      "images": [
+        "/photos/hero_img_1.webp",
+        "/photos/veera (1).jpeg",
+        "/photos/veera (2).jpeg",
+        "/photos/veera (3).jpeg",
+        "/photos/veera (4).jpeg",
+        "/photos/veera (5).jpeg",
+        "/photos/veera (6).jpeg",
+        "/photos/veera (7).jpeg",
+        "/photos/veera (8).jpeg",
+        "/photos/veera (9).jpeg",
+        "/photos/veera (10).jpeg",
+        "/photos/veera (11).jpeg",
+        "/photos/veera (12).jpeg",
+        "/photos/veera (13).jpeg"
+      ]
     },
     {
-      "id": 2,
-      "title": "Urban Nomad Series",
-      "category": "women's wear",
-      "description": "Street-ready designs that blend comfort with cutting-edge aesthetics.",
-      "tags": ["Sustainable", "Unisex", "Urban"],
-      "moodBoard": {
-        "text": "Graffiti textures, concrete tones, and modular silhouettes.",
-        "images": [
-          "/photos/img6.jpg",
-          "/photos/img8.jpg",
-          "/photos/img9.jpg",
-          "/photos/img10.jpg",
-          "/photos/img11.jpg"
-        ]
-      },
-      "inspiration": "Inspired by city wanderers and the rhythm of urban life."
+      "cover": "/photos/hero_img_2.webp",
+      "images": [
+        "/photos/hero_img_2.webp",
+        "/photos/pratibimb (2).jpeg",
+        "/photos/pratibimb (3).jpeg",
+        "/photos/pratibimb (1).jpeg",
+        "/photos/pratibimb (4).jpeg",
+        "/photos/pratibimb (5).jpeg",
+        "/photos/pratibimb (6).jpeg",
+        "/photos/pratibimb (7).jpeg",
+        "/photos/pratibimb (8).jpeg",
+        "/photos/pratibimb (9).jpeg",
+        "/photos/pratibimb (10).jpeg",
+        "/photos/pratibimb (11).jpeg",
+        "/photos/pratibimb (12).jpeg",
+        "/photos/pratibimb (13).jpeg",
+        "/photos/pratibimb (14).jpeg"
+      ]
     },
+    {
+      "cover": "/photos/hero_img_3.webp",
+      "images": [
+        "/photos/hero_img_3.webp",
+        "/photos/nyka (1).jpeg",
+        "/photos/nyka (2).jpeg",
+        "/photos/nyka (3).jpeg",
+        "/photos/nyka (4).jpeg",
+        "/photos/nyka (5).jpeg",
+        "/photos/nyka (6).jpeg",
+        "/photos/nyka (7).jpeg",
+        "/photos/nyka (8).jpeg",
+        "/photos/nyka (9).jpeg",
+        "/photos/nyka (10).jpeg",
+        "/photos/nyka (11).jpeg"
+      ]
+    },
+    {
+      "cover": "/photos/hero_img_4.webp",
+      "images": [
+        "/photos/hero_img_4.webp",
+        "/photos/swa (1).jpeg",
+        "/photos/swa (2).jpeg",
+        "/photos/swa (3).jpeg",
+        "/photos/swa (4).jpeg",
+        "/photos/swa (5).jpeg",
+        "/photos/swa (6).jpeg",
+        "/photos/swa (7).jpeg",
+        "/photos/swa (8).jpeg",
+        "/photos/swa (9).jpeg",
+        "/photos/swa (10).jpeg",
+        "/photos/swa (11).jpeg",
+        "/photos/swa (12).jpeg",
+        "/photos/swa (13).jpeg"
+      ]
+    },
+    {
+      "cover": "/photos/hero_img_5.webp",
+      "images": [
+        "/photos/hero_img_5.webp",
+        "/photos/ruh (1).jpeg",
+        "/photos/ruh (2).jpeg",
+        "/photos/ruh (3).jpeg",
+        "/photos/ruh (4).jpeg",
+        "/photos/ruh (5).jpeg",
+        "/photos/ruh (6).jpeg",
+        "/photos/ruh (7).jpeg",
+        "/photos/ruh (8).jpeg",
+        "/photos/ruh (9).jpeg",
+        "/photos/ruh (10).jpeg",
+        "/photos/ruh (11).jpeg",
+        "/photos/ruh (12).jpeg",
+        "/photos/ruh (13).jpeg",
+        "/photos/ruh (14).jpeg",
+        "/photos/ruh (15).jpeg"
+      ]
+    },
+    {
+      "cover": "/photos/hero_img_6.webp",
+      "images": [
+        "/photos/hero_img_6.webp",
+        "/photos/cha (1).jpeg",
+        "/photos/cha (2).jpeg",
+        "/photos/cha (3).jpeg",
+        "/photos/cha (4).jpeg",
+        "/photos/cha (5).jpeg",
+        "/photos/cha (6).jpeg",
+        "/photos/cha (7).jpeg",
+        "/photos/cha (8).jpeg",
+        "/photos/cha (9).jpeg",
+        "/photos/cha (10).jpeg",
+        "/photos/cha (11).jpeg",
+        "/photos/cha (12).jpeg"
+      ]
+    },
+    {
+      "cover": "/photos/hero_img_7.jpeg",
+      "images": [
+        "/photos/hero_img_7.jpeg",
+        "/photos/tri (1).jpeg",
+        "/photos/tri (2).jpeg",
+        "/photos/tri (3).jpeg",
+        "/photos/tri (4).jpeg",
+        "/photos/tri (5).jpeg",
+        "/photos/tri (6).jpeg",
+        "/photos/tri (7).jpeg",
+        "/photos/tri (8).jpeg",
+        "/photos/tri (9).jpeg",
+        "/photos/tri (10).jpeg",
+        "/photos/tri (11).jpeg",
+        "/photos/tri (12).jpeg",
+        "/photos/tri (13).jpeg",
+        "/photos/tri (14).jpeg",
+        "/photos/tri (15).jpeg"
+      ]
+    },
+    {
+      "cover": "/photos/hero_img_8.jpeg",
+      "images": [
+        "/photos/hero_img_8.jpeg",
+        "/photos/sau (1).jpeg",
+        "/photos/sau (2).jpeg",
+        "/photos/sau (3).jpeg",
+        "/photos/sau (4).jpeg",
+        "/photos/sau (5).jpeg",
+        "/photos/sau (6).jpeg",
+        "/photos/sau (7).jpeg",
+        "/photos/sau (8).jpeg",
+        "/photos/sau (9).jpeg",
+        "/photos/sau (10).jpeg",
+        "/photos/sau (11).jpeg",
+        "/photos/sau (12).jpeg",
+        "/photos/sau (13).jpeg",
+        "/photos/sau (14).jpeg"
+      ]
+    },
+    {
+      "cover": "/photos/hero_img_9.jpeg",
+      "images": [
+        "/photos/hero_img_9.jpeg",
+        "/photos/nis (1).jpeg",
+        "/photos/nis (2).jpeg",
+        "/photos/nis (3).jpeg",
+        "/photos/nis (4).jpeg",
+        "/photos/nis (5).jpeg",
+        "/photos/nis (6).jpeg",
+        "/photos/nis (7).jpeg",
+        "/photos/nis (8).jpeg",
+        "/photos/nis (9).jpeg",
+        "/photos/nis (10).jpeg",
+        "/photos/nis (11).jpeg",
+        "/photos/nis (12).jpeg"
+      ]
+    }
+  ],
+
+  "moodBoard": {
+    "text": "A palette of midnight blues and shimmering silvers evoking cosmic elegance.",
+    "images": [
+      "/photos/hero_img_1.webp",
+      "/photos/hero_img_2.webp",
+      "/photos/hero_img_3.webp",
+      "/photos/hero_img_4.webp",
+      "/photos/hero_img_5.webp",
+      "/photos/hero_img_6.webp"
+    ]
+  },
+
+  "inspiration": "Inspired by the phases of the moon and the fluidity of stardust."
+},
+{
+  "id": 2,
+  "title": "Urban Nomad Series",
+  "category": "women's wear",
+  "description": "Street-ready designs that blend comfort with cutting-edge aesthetics.",
+  "tags": ["Sustainable", "Unisex", "Urban"],
+  "coverImage": "/photos/hero_image_6.jpeg",
+
+  "imageCollections": [
+    {
+      "cover": "/photos/raktim_img_2.png",
+      "images": [
+        "/photos/raktim_img_2.png",
+        "/photos/rud (1).jpeg",
+        "/photos/rud (2).jpeg",
+        "/photos/rud (3).jpeg",
+        "/photos/rud (4).jpeg",
+        "/photos/rud (5).jpeg",
+        "/photos/rud (6).jpeg",
+        "/photos/rud (7).jpeg",
+        "/photos/rud (8).jpeg",
+        "/photos/rud (9).jpeg"
+        
+      ]
+    },
+    {
+      "cover": "/photos/shiuli_img_2.png",
+      "images": [
+        "/photos/shiuli_img_2.png",
+        "/photos/siu (2).jpeg",
+        "/photos/siu (3).jpeg",
+        "/photos/siu (1).jpeg",
+        "/photos/siu (4).jpeg",
+        "/photos/siu (5).jpeg",
+        "/photos/siu (6).jpeg",
+        "/photos/siu (7).jpeg",
+        "/photos/siu (8).jpeg",
+        "/photos/siu (9).jpeg",
+        "/photos/siu (10).jpeg",
+        "/photos/siu (11).jpeg",
+        "/photos/siu (12).jpeg",
+        "/photos/siu (13).jpeg",
+        "/photos/siu (14).jpeg",
+        "/photos/siu (15).jpeg",
+        "/photos/siu (16).jpeg",
+        "/photos/siu (17).jpeg",
+        "/photos/siu (18).jpeg",
+        "/photos/siu (19).jpeg",
+        "/photos/siu (20).jpeg",
+        "/photos/siu (21).jpeg",
+        "/photos/siu (22).jpeg"
+      ]
+    },
+    {
+      "cover": "/photos/rudra_img_1.png",
+      "images": [
+        "/photos/rudra_img_1.png",
+        "/photos/rak (2).jpeg",
+        "/photos/rak (3).jpeg",
+        "/photos/rak (1).jpeg",
+        "/photos/rak (4).jpeg",
+        "/photos/rak (5).jpeg",
+        "/photos/rak (6).jpeg",
+        "/photos/rak (7).jpeg",
+        "/photos/rak (8).jpeg",
+        "/photos/rak (9).jpeg",
+        "/photos/rak (10).jpeg",
+        "/photos/rak (11).jpeg",
+        "/photos/rak (12).jpeg",
+        "/photos/rak (13).jpeg",
+        "/photos/rak (14).jpeg",
+        "/photos/rak (15).jpeg",
+        "/photos/rak (16).jpeg",
+        "/photos/rak (17).jpeg",
+        "/photos/rak (18).jpeg"
+      ]
+    }
+    
+  ],
+
+  "moodBoard": {
+    "text": "Graffiti textures, concrete tones, and modular silhouettes.",
+    "images": [
+      "/photos/hero_img_1.webp",
+      "/photos/hero_img_2.webp",
+      "/photos/hero_img_3.webp",
+      "/photos/hero_img_4.webp",
+      "/photos/hero_img_5.webp",
+      "/photos/hero_img_6.webp"
+    ]
+  },
+
+  "inspiration": "Inspired by city wanderers and the rhythm of urban life."
+},
+    
     {
       "id": 3,
       "title": "Artisan Accessories",
       "category": "women's wear",
       "description": "Handcrafted accessories that complement contemporary fashion.",
       "tags": ["Handmade", "Leather", "Minimalist"],
+      "coverImage": "/photos/crd.PNG",
       "moodBoard": {
         "text": "Earthy tones, raw textures, and artisanal craftsmanship.",
         "images": [
-        "/photos/img39.jpg",
-          "/photos/img12.jpg",
-          "/photos/img13.jpg",
-          "/photos/img14.jpg",
-          "/photos/img15.jpg"
+        "/photos/crd (2).jpeg",
+        "/photos/crd (3).jpeg",
+        "/photos/crd (1).jpeg",
+        "/photos/crd (4).jpeg",
+        "/photos/crd (5).jpeg",
+        "/photos/crd (6).jpeg",
+        "/photos/crd (7).jpeg",
+        "/photos/crd (8).jpeg",
+        "/photos/crd (9).jpeg",
+        "/photos/crd (10).jpeg",
+        "/photos/crd (11).jpeg",
+        "/photos/crd (12).jpeg",
+        "/photos/crd (13).jpeg",
+        "/photos/crd (14).jpeg",
+        "/photos/crd (15).jpeg",
+        "/photos/crd (16).jpeg",
+        "/photos/crd (17).jpeg",
+        "/photos/crd (18).jpeg",
+        "/photos/crd (19).jpeg",
+        "/photos/crd (20).jpeg",
+        "/photos/crd (21).jpeg",
+        "/photos/crd (22).jpeg",
+        "/photos/crd (23).jpeg",
+        "/photos/crd (24).jpeg",
+        "/photos/crd (25).jpeg",
+        "/photos/crd (26).jpeg",
+        "/photos/crd (27).jpeg",
+        "/photos/crd (28).jpeg",
+        "/photos/crd (29).jpeg",
+        "/photos/crd (30).jpeg",
+        "/photos/crd (31).jpeg",
+        "/photos/crd (32).jpeg",
+        "/photos/crd (33).jpeg",
+        "/photos/crd (34).jpeg",
+        "/photos/crd (35).jpeg",
+        "/photos/crd (36).jpeg"
         ]
       },
       "inspiration": "Inspired by traditional leatherwork and modern minimalism."
     },
     {
       "id": 4,
-      "title": "Neo-Traditional Fusion",
-      "category": "women's wear",
-      "description": "Modern interpretation of traditional Indian textiles and silhouettes.",
-      "tags": ["Traditional", "Modern", "Cultural"],
-      "moodBoard": {
-        "text": "Rich fabrics, heritage motifs, and bold contrasts.",
-        "images": [
-         "/photos/img41.jpg",
-        "/photos/img16.jpg",
-          "/photos/img17.jpg",
-          "/photos/img18.jpg",
-          "/photos/img19.jpg"
-        ]
-      },
-      "inspiration": "Inspired by the fusion of old-world charm and new-age tailoring."
-    },
-    {
-      "id": 5,
       "title": "Minimalist Streetwear",
       "category": "women's wear",
       "description": "Clean lines and understated elegance for everyday wear.",
@@ -82,14 +357,60 @@
       "moodBoard": {
         "text": "Neutral tones, relaxed fits, and subtle textures.",
         "images": [
-          "/photos/img42.jpg",
-          "/photos/img20.jpg",
-          "/photos/img21.jpg",
-          "/photos/img22.jpg",
-          "/photos/img23.jpg"
+          "/photos/eka.png",
+        "/photos/eka (2).jpeg",
+        "/photos/eka (3).jpeg",
+        "/photos/eka (1).jpeg",
+        "/photos/eka (4).jpeg",
+        "/photos/eka (5).jpeg",
+        "/photos/eka (6).jpeg",
+        "/photos/eka (7).jpeg",
+        "/photos/eka (8).jpeg",
+        "/photos/eka (9).jpeg",
+        "/photos/eka (10).jpeg",
+        "/photos/eka (11).jpeg",
+        "/photos/eka (12).jpeg",
+        "/photos/eka (13).jpeg",
+        "/photos/eka (14).jpeg",
+        "/photos/eka (15).jpeg",
+        "/photos/eka (16).jpeg",
+        "/photos/eka (17).jpeg",
+        "/photos/eka (18).jpeg",
+        "/photos/eka (19).jpeg",
+        "/photos/eka (20).jpeg",
+        "/photos/eka (21).jpeg",
+        "/photos/eka (22).jpeg",
+        "/photos/eka (23).jpeg",
+        "/photos/eka (24).jpeg",
+        "/photos/eka (25).jpeg",
+        "/photos/eka (26).jpeg"
         ]
       },
       "inspiration": "Inspired by Scandinavian design and urban simplicity."
+    },
+    {
+      "id": 5,
+      "title": "Neo-Traditional Fusion",
+      "category": "women's wear",
+      "description": "Modern interpretation of traditional Indian textiles and silhouettes.",
+      "tags": ["Traditional", "Modern", "Cultural"],
+      "moodBoard": {
+        "text": "Rich fabrics, heritage motifs, and bold contrasts.",
+        "images": [
+          "/photos/mis.jpg",
+          "/photos/mis (1).jpeg",
+          "/photos/mis (2).jpeg",
+          "/photos/mis (3).jpeg",
+          "/photos/mis (4).jpeg",
+          "/photos/mis (5).jpeg",
+          "/photos/mis (6).jpeg",
+          "/photos/mis (7).jpeg",
+          "/photos/mis (8).jpeg",
+          "/photos/mis (9).jpeg",
+          "/photos/mis (10).jpeg"
+        ]
+      },
+      "inspiration": "Inspired by the fusion of old-world charm and new-age tailoring."
     },
     {
       "id": 6,
@@ -100,11 +421,20 @@
       "moodBoard": {
         "text": "Geometric shapes, metallic finishes, and dramatic silhouettes.",
         "images": [
-          "/photos/img43.jpg",
-          "/photos/img24.jpg",
-          "/photos/img25.jpg",
-          "/photos/img26.jpg",
-          "/photos/img27.jpg"
+          "/photos/chai.png",
+        "/photos/chai (2).jpeg",
+        "/photos/chai (3).jpeg",
+        "/photos/chai (1).jpeg",
+        "/photos/chai (4).jpeg",
+        "/photos/chai (5).jpeg",
+        "/photos/chai (6).jpeg",
+        "/photos/chai (7).jpeg",
+        "/photos/chai (8).jpeg",
+        "/photos/chai (9).jpeg",
+        "/photos/chai (10).jpeg",
+        "/photos/chai (11).jpeg",
+        "/photos/chai (12).jpeg",
+        "/photos/chai (13).jpeg"
         ]
       },
       "inspiration": "Inspired by architecture and expressive art forms."
@@ -118,11 +448,13 @@
       "moodBoard": {
         "text": "Velvet textures, gold accents, and candlelit elegance.",
         "images": [
-         "/photos/img45.jpg",
-          "/photos/img28.jpg",
-          "/photos/img29.jpg",
-          "/photos/img30.jpg",
-          "/photos/img31.jpg"
+         "/photos/bel.png",
+        "/photos/bel (2).jpeg",
+        "/photos/bel (3).jpeg",
+        "/photos/bel (1).jpeg",
+        "/photos/bel (4).jpeg",
+        "/photos/bel (5).jpeg",
+        "/photos/bel (6).jpeg"
         ]
       },
       "inspiration": "Inspired by vintage Hollywood and royal couture."
@@ -136,11 +468,15 @@
       "moodBoard": {
         "text": "Temple architecture, festive colors, and intricate weaves.",
         "images": [
-          "/photos/img44.jpg",
-          "/photos/img32.jpg",
-          "/photos/img33.jpg",
-          "/photos/img34.jpg",
-          "/photos/img35.jpg"
+          "/photos/rafu.jpeg",
+          "/photos/rafu (1).jpeg",
+          "/photos/rafu (2).jpeg",
+          "/photos/rafu (3).jpeg",
+          "/photos/rafu (4).jpeg",
+          "/photos/rafu (5).jpeg",
+          "/photos/rafu (6).jpeg",
+          "/photos/rafu (7).jpeg",
+          "/photos/rafu (8).jpeg"
         ]
       },
       "inspiration": "Inspired by South Indian heritage and ceremonial attire."
@@ -154,11 +490,28 @@
       "moodBoard": {
         "text": "Monochrome palettes, sleek silhouettes, and ambient lighting.",
         "images": [
-          "/photos/img4.jpg",
-          "/photos/img36.jpg",
-          "/photos/img37.jpg",
-          "/photos/img38.jpg",
-          "/photos/img39.jpg"
+          "/photos/benam.jpeg",
+        "/photos/benam (2).jpeg",
+        "/photos/benam (3).jpeg",
+        "/photos/benam (1).jpeg",
+        "/photos/benam (4).jpeg",
+        "/photos/benam (5).jpeg",
+        "/photos/benam (6).jpeg",
+        "/photos/benam (7).jpeg",
+        "/photos/benam (8).jpeg",
+        "/photos/benam (9).jpeg",
+        "/photos/benam (10).jpeg",
+        "/photos/benam (11).jpeg",
+        "/photos/benam (12).jpeg",
+        "/photos/benam (13).jpeg",
+        "/photos/benam (14).jpeg",
+        "/photos/benam (15).jpeg",
+        "/photos/benam (16).jpeg",
+        "/photos/benam (17).jpeg",
+        "/photos/benam (18).jpeg",
+        "/photos/benam (19).jpeg",
+        "/photos/benam (20).jpeg",
+        "/photos/benam (21).jpeg"
         ]
       },
       "inspiration": "Inspired by modern nightlife and minimalist glam."

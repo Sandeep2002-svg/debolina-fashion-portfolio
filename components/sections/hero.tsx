@@ -1,18 +1,10 @@
-"use client";
 
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export function HeroSection() {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
   const scrollToPortfolio = () => {
     const element = document.querySelector("#portfolio");
     if (element) {
@@ -25,30 +17,18 @@ export function HeroSection() {
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8"
     >
-      {/* Background Image / Video */}
-      <div className="absolute inset-0 z-0">
-        {isClient ? (
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-full object-cover opacity-20 dark:opacity-90"
-          >
-            <source src="/videos/sunFlower.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        ) : (
-          <Image
-            src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=1920"
-            alt="Fashion Background"
-            fill
-            className="object-cover opacity-20 dark:opacity-10"
-            priority
-          />
-        )}
-        <div className="absolute inset-0 bg-gradient-to-br from-background/90 via-background/70 to-background/90" />
-      </div>
+      {/* Background Image */}
+<div className="absolute inset-0 z-0">
+  <Image
+    src="/photos/heroBackgroundImage.jpg"
+    alt="Hero Background"
+    fill
+    className="object-cover opacity-70"
+    priority
+  />
+
+  <div className="absolute inset-0 bg-black/30" />
+</div>
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-3xl sm:max-w-4xl mx-auto">
@@ -58,30 +38,26 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
         >
           <motion.h1
-            className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent"
+            className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-3xl sm:text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent"
+            style={{ fontFamily: "Times New Roman, serif" }}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             Debolina Burman
-            <img
-              src="/sunflower_1.png"
-              alt="Sunflower"
-              className="w-8 h-8 sm:w-12 sm:h-12 lg:w-20 lg:h-20 object-contain"
-            />
           </motion.h1>
 
           <motion.p
-            className="text-lg sm:text-xl lg:text-2xl text-muted-foreground mb-6 sm:mb-8 font-light leading-snug px-2"
+            className="text-lg sm:text-xl lg:text-2xl  text-white drop-shadow-lg mb-6 sm:mb-8 font-light leading-snug px-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            NIFT Bhubaneswar Designer | Wearable Art Creator
+            Fashion Designer | NIFT 2022-2026
           </motion.p>
 
           <motion.p
-            className="text-base sm:text-lg lg:text-xl text-muted-foreground mb-8 sm:mb-12 max-w-lg sm:max-w-2xl mx-auto leading-relaxed px-2"
+            className="text-base sm:text-lg lg:text-xl  text-white drop-shadow-lg mb-8 sm:mb-12 max-w-lg sm:max-w-2xl mx-auto leading-relaxed px-2"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
@@ -104,6 +80,7 @@ export function HeroSection() {
             >
               View My Work
             </Button>
+
             <Button
               variant="outline"
               size="lg"

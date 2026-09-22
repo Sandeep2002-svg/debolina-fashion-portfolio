@@ -49,7 +49,7 @@ export function AboutSection() {
             <div className="relative w-full max-w-xs sm:max-w-sm lg:max-w-md mx-auto">
               <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-primary/20 to-secondary/20 p-2">
                 <Image
-                  src="/photos/img1.jpg"
+                  src="/photos/Profile.JPG.jpeg"
                   alt="Debolina Burman - Fashion Designer"
                   width={400}
                   height={400}
@@ -70,7 +70,7 @@ export function AboutSection() {
             className="space-y-6 sm:space-y-8"
           >
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">My Design Philosophy</h3>
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">My Design Language</h3>
               <p className="text-muted-foreground text-base sm:text-lg leading-relaxed mb-4 sm:mb-6">
                 Hello! I'm Debolina, an aspiring Fashion Designer who's
                 highly inclined towards Fashion and Aesthetics. One who believes
