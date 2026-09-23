@@ -27,6 +27,7 @@ import "swiper/css/pagination";
 ========================================================= */
 
 type ImageCollection = {
+  name?: string;
   cover: string;
   images: string[];
 };
@@ -1520,18 +1521,60 @@ export function PortfolioSection() {
                               className="
                                 absolute
                                 inset-0
-                                bg-gradient-to-t
-                                from-black/80
+                                bg-gradient-to-b
+                                from-black/70
                                 via-transparent
-                                to-transparent
+                                to-black/80
+                                opacity-75
+                                transition
+                                duration-500
+                                group-hover:opacity-90
                               "
                             />
 
+                            {/* GARMENT NAME */}
+                            <div
+                              className="
+                                absolute
+                                left-4
+                                right-4
+                                top-4
+                                z-10
+                              "
+                            >
+                              <span
+                                className="
+                                  inline-block
+                                  rounded-full
+                                  border
+                                  border-white/20
+                                  bg-black/55
+                                  px-4
+                                  py-2
+                                  text-[10px]
+                                  font-medium
+                                  uppercase
+                                  tracking-[0.22em]
+                                  text-white
+                                  backdrop-blur-md
+                                  transition-all
+                                  duration-300
+                                  group-hover:bg-white
+                                  group-hover:text-black
+                                "
+                              >
+                                {collection.name ||
+                                  `Garment ${String(index + 1).padStart(2, "0")}`}
+                              </span>
+                            </div>
+
+                            {/* NUMBER */}
                             <div
                               className="
                                 absolute
                                 bottom-4
                                 left-4
+                                z-10
                                 rounded-full
                                 bg-black/70
                                 px-3
@@ -1546,11 +1589,13 @@ export function PortfolioSection() {
                               ).padStart(2, "0")}
                             </div>
 
+                            {/* MAXIMIZE ICON */}
                             <div
                               className="
                                 absolute
                                 right-4
                                 top-4
+                                z-10
                                 rounded-full
                                 bg-black/70
                                 p-3
@@ -1567,22 +1612,25 @@ export function PortfolioSection() {
                               />
                             </div>
 
+                            {/* VIEW */}
                             <div
                               className="
                                 absolute
                                 bottom-4
                                 right-4
+                                z-10
                                 text-xs
                                 uppercase
-                                tracking-widest
+                                tracking-[0.25em]
                                 text-white
                                 opacity-0
-                                transition
+                                transition-all
                                 duration-300
+                                group-hover:translate-x-0
                                 group-hover:opacity-100
                               "
                             >
-                              Open
+                              View
                             </div>
 
                           </div>
@@ -1622,7 +1670,7 @@ export function PortfolioSection() {
                       text-white/50
                     "
                   >
-                    Mood
+                    Concept
                   </p>
 
                   <p
@@ -1651,7 +1699,7 @@ export function PortfolioSection() {
                       text-white/50
                     "
                   >
-                    Inspiration
+                    {selectedProject.id === 3 ? "Handcraft" : "Inspiration"}
                   </p>
 
                   <p
@@ -1661,10 +1709,9 @@ export function PortfolioSection() {
                       text-white/70
                     "
                   >
-                    {
-                      selectedProject
-                        .inspiration
-                    }
+                    {selectedProject.id === 3
+                      ? "Extra-weft technique, Dhalapathara, Odisha"
+                      : selectedProject.inspiration}
                   </p>
 
                 </div>
@@ -1701,23 +1748,6 @@ export function PortfolioSection() {
                   View Mood Board
                 </Button>
 
-                <Button
-                  type="button"
-                  onClick={() =>
-                    setModalType(
-                      "inspiration"
-                    )
-                  }
-                  variant="outline"
-                  className="
-                    border-white/20
-                    bg-transparent
-                    text-white
-                    hover:bg-white/10
-                  "
-                >
-                  View Inspiration
-                </Button>
 
               </motion.div>
 
